@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ek Vaar Vaat Kari Le</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fff3f3;
+      padding: 40px;
+      text-align: center;
+    }
+    .message {
+      background: #ffe6e6;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 0 10px #ccc;
+      margin-bottom: 30px;
+    }
+    button {
+      font-size: 18px;
+      padding: 10px 20px;
+      margin: 10px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    .yes { background-color: #b2f2bb; }
+    .no { background-color: #ffadad; }
+  </style>
+</head>
+<body>
+
+  <div class="message">
+    <p>
+      Hyy .....<br><br>
+      Tara sathe mari ek var vat thai pan e tari fack ID hati to mane lagu e poro che ne
+      tu aatli naali vat ne ego par rakhi hai to pachi relationship banvanu hase te bi ni banse ne.<br><br>
+      Tu joo mane 1 year thi like Karti hate to tu khali ek var kevani to try karte,
+      me peli ne chhori mukte...<br><br>
+      Me tane haju joi bi nathi, naam pan nathi khabar pan ni khabar tara mate felling jagiya karti che.<br>
+      Gusso che to sorry, tari felling samjo ni tena mate tu je kai te karva tayar.<br>
+      Bas khali ek var vat kari le (please).<br><br>
+      Tu jo mane like karti hati to ek var to msg kari hai j....<br>
+      (Kai bi mara taraf thi tane hurt thai yu evu lage to sorry)
+    </p>
+  </div>
+
+  <button class="yes" onclick="showResult('Yes')">Yes</button>
+  <button class="no" onclick="showResult('No')">No</button>
+
+  <h2 id="response"></h2>
+
+  <script>
+    function showResult(choice) {
+      document.getElementById('response').textContent = "You selected: " + choice;
+    }
+  </script>
+
+</body>
+</html>
